@@ -1,0 +1,60 @@
+/* main content section */
+
+.main-content {
+    &__article {
+        padding: 30px 15px 45px;
+    }
+    &__link {
+        color: $color-secondary-light;
+        font-size: 14px;
+        line-height: 30px;
+        margin-bottom: 1px;
+    }
+    &__title {
+        font-family: $font-primary;
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    &__text {
+        color: $color-neutral;
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    &__button {
+        display: inline-block;
+        color: $color-primary;
+        font-family: $font-secondary;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 45px;
+        padding: 0 25px;
+        background-color: $color-neutral-light;
+        border: 2px solid $color-primary;
+        border-radius: 45px;
+        cursor: pointer;
+        &:hover {
+            color: $color-neutral-light;
+            background-color: $color-primary;
+        }
+    }
+}
+
+
+/* reasons to purchase section */
+
+.reasons {
+    background-color: $color-secondary-lighter;
+    padding: 30px 15px 60px;
+    &__title {
+        font-family: $font-primary;
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 45px;
+    }
+    &__article {}
+    &__subtitle {}
+    &__text {}
+    &__button {}
+}

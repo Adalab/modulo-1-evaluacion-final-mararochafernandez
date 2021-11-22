@@ -10,6 +10,7 @@
         display: flex;
         align-items: flex-end;
     }
+    /* hero article styles */
     &__article {
         min-height: 50vh;
         display: flex;
@@ -22,6 +23,7 @@
     &__title {
         font-family: $font-primary;
         font-size: 42px;
+        line-height: 55px;
         text-transform: uppercase;
         word-spacing: 100vw;
         margin-bottom: 10px;
