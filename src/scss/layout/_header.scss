@@ -1,12 +1,21 @@
+/* header styles */
+
 .header {
     background-color: $color-secondary;
-    width: 44px;
     position: fixed;
+    z-index: 1;
     &__burger {
         width: 44px;
         height: 44px;
         display: flex;
         justify-content: center;
         align-items: center;
+        &:hover {
+            background-color: $color-primary;
+        }
+    }
+    &__image {
+        width: 16px;
+        height: 14px;
     }
 }

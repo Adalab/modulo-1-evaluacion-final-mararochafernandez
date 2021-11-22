@@ -1,0 +1,59 @@
+/* hero styles */
+
+.hero {
+    background-image: url('../images/cover.jpg');
+    background-size: cover;
+    background-position: center top;
+    &__image {
+        background: -prefix-linear-gradient(bottom, transparent 75%, black);
+        background: linear-gradient(to bottom, transparent 75%, black);
+        min-height: 100vh;
+        display: flex;
+        align-items: flex-end;
+    }
+    &__article {
+        min-height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        color: $color-neutral-light;
+        padding: 0 15px;
+    }
+    &__title {
+        font-family: $font-primary;
+        font-size: 42px;
+        text-transform: uppercase;
+        word-spacing: 100vw;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    &__text {
+        margin-bottom: 45px;
+        text-align: center;
+    }
+    &__button {
+        background-color: $color-neutral-light;
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover {
+            background-color: $color-primary;
+        }
+    }
+    &__mask {
+        margin-top: 3px;
+        width: 45px;
+        height: 45px;
+        mask-image: url('../images/ico-scroll-down.svg');
+        mask-position: center center;
+        mask-repeat: no-repeat;
+        background-color: $color-primary;
+        &:hover {
+            background-color: $color-neutral-light;
+        }
+    }
+}
