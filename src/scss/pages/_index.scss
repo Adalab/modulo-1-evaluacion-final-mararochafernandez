@@ -43,16 +43,13 @@
     }
     /* go button styles */
     &__button {
+        @extend .main-button;
         display: inline-block;
         color: $color-primary;
-        font-family: $font-secondary;
-        font-weight: 500;
-        font-size: 20px;
         line-height: 41px;
         padding: 0 23px;
         background-color: $color-neutral-light;
         border: 2px solid $color-primary;
-        border-radius: 45px;
         @include tablet {
             padding: 0 31px;
         }
@@ -60,9 +57,9 @@
             padding: 0 66px;
         }
         &:hover {
+            @extend .main-transition;
             color: $color-neutral-light;
             background-color: $color-primary;
-            transition: background-color ease .5s;
         }
     }
 }
@@ -146,15 +143,12 @@
     }
     /* more reasons button styles */
     &__button {
+        @extend .main-button;
         width: 184px;
         margin: 0 auto;
         color: $color-neutral-light;
-        font-family: $font-secondary;
-        font-weight: 500;
-        font-size: 20px;
         line-height: 45px;
         background-color: $color-primary;
-        border-radius: 45px;
         @include tablet {
             width: 210px;
             grid-column: span 3;
@@ -163,9 +157,9 @@
             width: 255px;
         }
         &:hover {
+            @extend .main-transition;
             color: $color-neutral-light;
             background-color: $color-secondary;
-            transition: background-color ease .5s;
         }
     }
 }

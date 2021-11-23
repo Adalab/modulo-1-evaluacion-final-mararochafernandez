@@ -14,18 +14,18 @@ Desarrollar página web de acuerdo al diseño dado. Utilizando:
 - Incluir Adalab Starter Web Kit.
 - Descargar imágenes e iconos.
 
-## Diseño en Zeplin
+## Diseños en Zeplin
 
 <table>
   <tr>
     <td>
-      <img src="./design/mobile.png" alt="Mobile version" height="300"/>
+      <img src="./design/mobile.png" alt="Mobile version" height="400"/>
     </td>
     <td>
-      <img src="./design/tablet.png" alt="Tablet version" height="300"/>
+      <img src="./design/tablet.png" alt="Tablet version" height="400"/>
     </td>
     <td>
-      <img src="./design/desktop.png" alt="Desktop version" height="300"/>
+      <img src="./design/desktop.png" alt="Desktop version" height="400"/>
     </td>
   </tr>
 </table>
@@ -51,12 +51,14 @@ Desarrollar página web de acuerdo al diseño dado. Utilizando:
 - Degradado vertical en la imagen del hero.
 - Año actual en el copyright.
 
+---
+
 # Entrega
 
 - Fecha: miércoles 24 a las 14:00.
 - Actualizar carpeta docs/ y publicar en GitHub Pages.
 
-# Criterios de evaluación
+## Criterios de evaluación
 
 GENERAL
 - **Estructura adecuada de ficheros y carpetas, y enlazar bien los ficheros.**
