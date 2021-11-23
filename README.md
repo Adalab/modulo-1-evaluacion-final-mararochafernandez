@@ -1,5 +1,9 @@
 ![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
 
+---
+
+Ejercicio de Mara Rocha Fernández: [Anonymous Proxy](#)
+
 # Evaluación final del módulo 1
 
 Desarrollar página web de acuerdo al diseño dado. Utilizando:
@@ -33,7 +37,7 @@ Desarrollar página web de acuerdo al diseño dado. Utilizando:
 ## Maquetación
 
 - Botón de hamburguesa: fijo en la esquina superior izquierda, no desaparece al hacer scroll, enlaza con la web de Adalab, no despliega ningún menú.
-- Primer módulo (Anonymous proxy): maquetado con flexbox, ocupa el alto de la ventana del navegador.
+- Primer módulo (Anonymous Proxy): maquetado con flexbox, ocupa el alto de la ventana del navegador.
 - Segundo módulo (Looking Through A Window): maquetación CSS libre.
 - Tercer módulo (3 Reasons To Purchase): los 3 elementos del listado maquetados con Grid.
 - Cuarto módulo (footer): maquetado con flexbox, todos los textos de la columna "articles" y "twitter" enlazan con la web de Adalab.
@@ -61,15 +65,18 @@ Desarrollar página web de acuerdo al diseño dado. Utilizando:
 ## Criterios de evaluación
 
 GENERAL
+
 - **Estructura adecuada de ficheros y carpetas, y enlazar bien los ficheros.**
 - Uso de control de versiones con ramas.
 
 HTML
+
 - **Código perfectamente indentado.**
 - **Sintaxis correcta y bien estructurado.**
 - **Etiquetas semánticas adecuadas para cada pieza de contenido.**
 
 CSS / SASS
+
 - **Código perfectamente indentado.**
 - **Sintaxis correcta y bien estructurado.**
 - Variables, anidación y parciales.
@@ -84,4 +91,5 @@ CSS / SASS
 - Transiciones ara dotar de dinamismo al proyecto.
 
 ISSUES
+
 - Evaluación intermedia.

@@ -1,68 +1,123 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <title>Anonymous Proxy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;500&display=swap" />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="icon" href="./assets/images/favicon.png" />
-  </head>
+    <script src="https://kit.fontawesome.com/7879d2c79d.js" crossorigin="anonymous"></script>
+</head>
 
-  <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+<body>
+    <!-- header -->
+    <!-- header -->
+    <header class="header">
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
+        <!-- burger menu -->
+        <a class="header__burger" href="https://adalab.es" title="Main menu"><img class="header__image" src="./assets/images/ico-menu.svg" alt="Main menu" /></a>
 
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
+    </header>
 
-          </li>
-        </ul>
-      </main>
+    <!-- hero -->
+    <!-- hero -->
+    <section class="hero" id="top">
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
+        <!-- hero article -->
+        <div class="hero__image">
+            <article class="hero__article">
+                <h1 class="hero__title">Anonymous Proxy</h1>
+                <p class="hero__text">In hac habitasse platea dictumst.</p>
 
-        </small>
-      </footer>
+                <!-- hero button -->
+                <a class="button button__hero" href="./#reasons" title="Go to 3 Reasons To Purchase"><span class="button__mask"></span></a>
+            </article>
+        </div>
 
-    </div>
-    <script src="./assets/js/main.js"></script>
-  </body>
+    </section>
+
+    <!-- main -->
+    <!-- main -->
+    <main class="main">
+
+        <!-- main content section -->
+        <section class="main-content">
+            <article class="main-content__article">
+                <p class="main-content__category">Insomnia Tips</p>
+                <h2 class="main-content__title">Looking Through A Window</h2>
+                <p class="main-content__text">Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
+
+                <!-- go button -->
+                <a class="main-content__button" href="#" title="Go to Looking Through A Window">Go</a>
+            </article>
+        </section>
+
+        <!-- reasons to purchase section-->
+        <section class="reasons" id="reasons">
+            <h3 class="reasons__title">3 Reasons To Purchase</h3>
+
+            <!-- first article -->
+            <article class="reasons__article ">
+                <h4 class="reasons__subtitle">Ut sed metus</h4>
+                <p class="reasons__text">Lorem ipsum dolor sit amet, consecteur.</p>
+            </article>
+
+            <!-- second article -->
+            <article class="reasons__article ">
+                <h4 class="reasons__subtitle">Curabitur ac erat</h4>
+                <p class="reasons__text">Mauris mattis urna quis lorem molestie.</p>
+            </article>
+
+            <!-- third article -->
+            <article class="reasons__article ">
+                <h4 class="reasons__subtitle">Morbi dictum</h4>
+                <p class="reasons__text">Aliquam in dolor et dolor tincidunt.</p>
+            </article>
+
+            <!-- more reasons button -->
+            <a class="reasons__button" href="#" title="Go to Reasons To Purchase">More reasons</a>
+        </section>
+
+    </main>
+
+    <!-- footer -->
+    <!-- footer button -->
+    <a class="button button__footer" href="./#top" title="Go to top"><span class="button__mask"></span></a>
+
+    <!-- footer -->
+    <footer class="footer">
+
+        <!-- footer menu -->
+        <nav class="menu menu__footer">
+            <ul class="menu__container">
+                <li class="menu__item"><a class="menu__link" href="https://adalab.es" title="Articles">Articles</a></li>
+                <li class="menu__item"><a class="menu__link" href="https://adalab.es" title="Books">Books</a></li>
+                <li class="menu__item"><a class="menu__link" href="https://adalab.es" title="Events">Events</a></li>
+                <li class="menu__item"><a class="menu__link" href="https://adalab.es" title="Reasons">Reasons</a></li>
+                <li class="menu__item"><a class="menu__link" href="https://adalab.es" title="Tips">Tips</a></li>
+            </ul>
+        </nav>
+
+        <!-- social media menu -->
+        <nav class="menu menu__socialmedia">
+            <ul class="menu__container">
+                <li class="menu__item"><a class="menu__link" href="https://twitter.com/Adalab_Digital" title="Twitter">Twitter</a></li>
+                <li class="menu__item"><a class="menu__link" href="https://www.instagram.com/adalab_digital" title="Instagram">Instagram</a></li>
+                <li class="menu__item"><a class="menu__link" href="https://adalab.es" title="Mastodon.social">Mastodon.social</a></li>
+            </ul>
+        </nav>
+
+        <!-- copyright secction -->
+        <section class="copyright">
+            <p>&copy; 2021</p>
+            <p>we <i class="fas fa-heart"></i> components</p>
+        </section>
+
+    </footer>
+</body>
+
 </html>
