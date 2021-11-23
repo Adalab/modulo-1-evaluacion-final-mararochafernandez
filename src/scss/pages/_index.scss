@@ -3,24 +3,43 @@
 .main-content {
     &__article {
         padding: 30px 15px 45px;
+        @include tablet {
+            padding: 30px 39px 60px;
+        }
+        @include desktop {
+            padding: 60px 275px;
+        }
     }
-    &__link {
+    &__category {
         color: $color-secondary-light;
         font-size: 14px;
         line-height: 30px;
-        margin-bottom: 1px;
+        @include desktop {
+            font-size: 16px;
+        }
     }
     &__title {
         font-family: $font-primary;
         font-size: 24px;
         line-height: 30px;
         margin-bottom: 15px;
+        @include tablet {
+            font-size: 26px;
+            line-height: 45px;
+            margin-bottom: 30px;
+        }
+        @include desktop {
+            font-size: 32px;
+        }
     }
     &__text {
         color: $color-neutral;
         font-size: 18px;
         line-height: 30px;
         margin-bottom: 30px;
+        @include tablet {
+            font-size: 20px;
+        }
     }
     &__button {
         display: inline-block;
@@ -33,6 +52,12 @@
         background-color: $color-neutral-light;
         border: 2px solid $color-primary;
         border-radius: 45px;
+        @include tablet {
+            padding: 0 31px;
+        }
+        @include desktop {
+            padding: 0 66px;
+        }
         &:hover {
             color: $color-neutral-light;
             background-color: $color-primary;
