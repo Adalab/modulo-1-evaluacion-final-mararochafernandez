@@ -2,3 +2,39 @@ body {
     font-family: $font-secondary;
     font-size: 16px;
 }
+
+
+/* hero and footer button styles */
+
+.button {
+    background-color: $color-neutral-light;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+        background-color: $color-primary;
+    }
+    &__mask {
+        width: 45px;
+        height: 45px;
+        mask-position: center center;
+        mask-repeat: no-repeat;
+        background-color: $color-primary;
+        &:hover {
+            background-color: $color-neutral-light;
+        }
+    }
+    /* hero button styles */
+    &__hero &__mask {
+        mask-image: url('../images/ico-scroll-down.svg');
+        margin-top: 3px;
+    }
+    /* footer button styles */
+    &__footer &__mask {
+        mask-image: url('../images/ico-arrow.svg');
+    }
+}
