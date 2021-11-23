@@ -15,6 +15,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     &:hover {
         background-color: $color-primary;
     }
@@ -34,6 +35,9 @@ body {
         margin-top: 3px;
     }
     /* footer button styles */
+    &__footer {
+        transform: translate(0, -82px);
+    }
     &__footer &__mask {
         mask-image: url('../images/ico-arrow.svg');
     }
