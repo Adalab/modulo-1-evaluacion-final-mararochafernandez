@@ -13,7 +13,7 @@
         align-items: flex-start;
         column-gap: 30px;
     }
-    @include tablet {
+    @include desktop {
         padding: 45px 370px;
     }
 }
