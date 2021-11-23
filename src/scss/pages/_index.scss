@@ -36,6 +36,7 @@
         &:hover {
             color: $color-neutral-light;
             background-color: $color-primary;
+            transition: background-color ease .5s;
         }
     }
 }
@@ -96,6 +97,7 @@
         &:hover {
             color: $color-neutral-light;
             background-color: $color-secondary;
+            transition: background-color ease .5s;
         }
     }
 }

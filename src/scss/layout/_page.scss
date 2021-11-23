@@ -16,8 +16,10 @@ body {
     justify-content: center;
     align-items: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
     &:hover {
         background-color: $color-primary;
+        transition: background-color ease .5s;
     }
     &__mask {
         width: 45px;
