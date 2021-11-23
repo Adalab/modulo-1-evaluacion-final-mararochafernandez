@@ -19,27 +19,16 @@
         }
     }
     &__title {
-        font-family: $font-primary;
-        font-size: 24px;
-        line-height: 30px;
+        @extend .main-title;
         margin-bottom: 15px;
         @include tablet {
-            font-size: 26px;
-            line-height: 45px;
             margin-bottom: 30px;
-        }
-        @include desktop {
-            font-size: 32px;
         }
     }
     &__text {
+        @extend .main-text;
         color: $color-neutral;
-        font-size: 18px;
-        line-height: 30px;
         margin-bottom: 30px;
-        @include tablet {
-            font-size: 20px;
-        }
     }
     /* go button styles */
     &__button {
@@ -85,16 +74,11 @@
         padding: 60px 85px;
     }
     &__title {
-        font-family: $font-primary;
-        font-size: 24px;
-        line-height: 30px;
+        @extend .main-title;
         @include tablet {
-            font-size: 26px;
-            line-height: 45px;
             grid-column: span 3;
         }
         @include desktop {
-            font-size: 32px;
             margin: 0 190px;
         }
     }
@@ -131,13 +115,10 @@
         }
     }
     &__text {
+        @extend .main-text;
         width: 180px;
         margin: 0 auto;
-        font-family: $font-secondary;
-        font-size: 18px;
-        line-height: 30px;
         @include tablet {
-            font-size: 20px;
             width: auto;
         }
     }

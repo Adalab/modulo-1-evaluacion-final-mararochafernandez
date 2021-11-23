@@ -1,6 +1,7 @@
 body {
     font-family: $font-secondary;
     font-size: 16px;
+    color: $color-neutral-dark;
 }
 
 
@@ -19,7 +20,7 @@ body {
     overflow: hidden;
     &:hover {
         background-color: $color-primary;
-        transition: background-color ease .5s;
+        @extend .main-transition;
     }
     &__mask {
         width: 45px;

@@ -12,7 +12,7 @@
         align-items: center;
         &:hover {
             background-color: $color-primary;
-            transition: background-color ease .5s;
+            @extend .main-transition;
         }
     }
     &__image {

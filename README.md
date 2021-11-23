@@ -2,7 +2,7 @@
 
 ---
 
-Ejercicio de Mara Rocha Fernández: [Anonymous Proxy](#)
+Ejercicio de Mara Rocha Fernández: [Anonymous Proxy](http://beta.adalab.es/modulo-1-evaluacion-final-mararochafernandez/)
 
 # Evaluación final del módulo 1
 
@@ -15,7 +15,7 @@ Desarrollar página web de acuerdo al diseño dado. Utilizando:
 ## Recursos
 
 - Crear repositorio en GitHub Classroom y clonar.
-- Incluir Adalab Starter Web Kit.
+- Incluir Adalab Web Starter Kit.
 - Descargar imágenes e iconos.
 
 ## Diseños en Zeplin
