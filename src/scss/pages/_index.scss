@@ -28,12 +28,11 @@
         font-family: $font-secondary;
         font-weight: 500;
         font-size: 20px;
-        line-height: 45px;
-        padding: 0 25px;
+        line-height: 41px;
+        padding: 0 23px;
         background-color: $color-neutral-light;
         border: 2px solid $color-primary;
         border-radius: 45px;
-        cursor: pointer;
         &:hover {
             color: $color-neutral-light;
             background-color: $color-primary;
@@ -47,14 +46,56 @@
 .reasons {
     background-color: $color-secondary-lighter;
     padding: 30px 15px 60px;
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: 30px 1fr 1fr 1fr 45px;
+    grid-row-gap: 45px;
+    text-align: center;
     &__title {
         font-family: $font-primary;
         font-size: 24px;
         line-height: 30px;
-        margin-bottom: 45px;
+        //background-color: pink;
     }
-    &__article {}
-    &__subtitle {}
-    &__text {}
-    &__button {}
+    &__article {
+        &--first {
+            //background-color: pink;
+        }
+        &--second {
+            //background-color: pink;
+        }
+        &--third {
+            //background-color: pink;
+        }
+    }
+    &__subtitle {
+        font-family: $font-primary;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    &__text {
+        width: 180px;
+        margin: 0 auto;
+        font-family: $font-secondary;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    &__button-container {
+        //background-color: pink;
+    }
+    &__button {
+        width: 184px;
+        margin: 0 auto;
+        color: $color-neutral-light;
+        font-family: $font-secondary;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 41px;
+        background-color: $color-primary;
+        border-radius: 45px;
+        &:hover {
+            color: $color-neutral-light;
+            background-color: $color-secondary;
+        }
+    }
 }
