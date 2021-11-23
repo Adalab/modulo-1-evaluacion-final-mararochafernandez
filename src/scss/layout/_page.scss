@@ -4,7 +4,7 @@ body {
 }
 
 
-/* hero and footer button styles */
+/* hero button and footer button styles */
 
 .button {
     background-color: $color-neutral-light;
@@ -36,7 +36,7 @@ body {
     }
     /* footer button styles */
     &__footer {
-        transform: translate(0, -82px);
+        transform: translate(0, -22px);
     }
     &__footer &__mask {
         mask-image: url('../images/ico-arrow.svg');

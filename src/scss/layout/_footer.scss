@@ -2,7 +2,53 @@
 
 .footer {
     background-color: $color-secondary-dark;
-    padding: 60px 15px 45px;
+    padding: 0 15px 45px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+
+/* footer menu and social media menu styles */
+
+.menu {
+    &__container {
+        margin: 15px 0;
+    }
+    &__item {
+        text-align: center;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+    &__link {
+        color: $color-neutral-light;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    /* footer menu styles */
+    &__footer {}
+    /* social media menu styles */
+    &__socialmedia {}
+}
+
+
+/* copyright secction styles */
+
+.copyright {
+    color: $color-neutral-light;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 30px;
+    &__year {}
+    &__company {}
+}
+
+
+/* font awesome icon styles */
+
+.fa-heart {
+    color: $color-primary;
+    height: 15px;
 }
