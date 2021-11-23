@@ -82,16 +82,23 @@
         padding: 30px 40px 60px;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 45px 1fr 45px;
+        grid-column-gap: 30px;
+    }
+    @include desktop {
+        padding: 60px 85px;
     }
     &__title {
         font-family: $font-primary;
         font-size: 24px;
         line-height: 30px;
-        background-color: pink;
         @include tablet {
             font-size: 26px;
             line-height: 45px;
             grid-column: span 3;
+        }
+        @include desktop {
+            font-size: 32px;
+            margin: 0 190px;
         }
     }
     &__article {
@@ -103,21 +110,18 @@
                 grid-column-start: 1;
                 grid-column-end: 2;
             }
-            background-color: pink;
         }
         &--second {
             @include tablet {
                 grid-column-start: 2;
                 grid-column-end: 3;
             }
-            background-color: pink;
         }
         &--third {
             @include tablet {
                 grid-column-start: 3;
                 grid-column-end: 4;
             }
-            background-color: pink;
         }
     }
     &__subtitle {
@@ -154,6 +158,9 @@
         @include tablet {
             width: 210px;
             grid-column: span 3;
+        }
+        @include desktop {
+            width: 255px;
         }
         &:hover {
             color: $color-neutral-light;
