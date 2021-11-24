@@ -39,6 +39,7 @@
     }
     &__link {
         color: $color-neutral-light;
+        padding: 5px 5px 5px 0;
         &:hover {
             text-decoration: underline;
         }
