@@ -1,5 +1,5 @@
 ### My exercise:
-# - [Anonymous Proxy](http://beta.adalab.es/modulo-1-evaluacion-final-mararochafernandez/)
+- [Anonymous Proxy](http://beta.adalab.es/modulo-1-evaluacion-final-mararochafernandez/)
 
 ### Feature highlights:
 
