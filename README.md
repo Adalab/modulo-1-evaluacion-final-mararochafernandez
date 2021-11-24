@@ -11,7 +11,7 @@
 - Version control and branching with **Git** to manage the code.
 - **Adalab Web Starter Kit**: resources and tools (**Node JS**, **NPM**, **Gulp**) to quickly start web development projects.
 
-#### Other features:
+### Other features:
 - Box model and positioning (fixed and absolute).
 - Gradient and shadow styles.
 - Class selectors.
