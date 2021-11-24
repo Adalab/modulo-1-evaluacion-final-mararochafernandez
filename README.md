@@ -1,6 +1,6 @@
 ### My exercise: [Anonymous Proxy](http://beta.adalab.es/modulo-1-evaluacion-final-mararochafernandez/)
 
-### Feature highlights
+### Feature highlights:
 
 - **Mobile First** Responsive Web Design.
 - **Semantic HTML structure** to provide additional meaning to the markup.
@@ -10,14 +10,15 @@
 - **CSS Transitions** and **CSS Animations** with keyframes (for beginners), improving user experience.
 - Version control and branching with **Git** to manage the code.
 - **Adalab Web Starter Kit**: resources and tools (**Node JS**, **NPM**, **Gulp**) to quickly start web development projects.
-- Other features:
-  - Box model and positioning (fixed and absolute).
-  - Gradient and shadow styles.
-  - Class selectors.
-  - Template engine.
-  - Indent code.
-  - File and folders well structured.
-  - Google Fonts and Font Awesome.
+
+#### Other features:
+- Box model and positioning (fixed and absolute).
+- Gradient and shadow styles.
+- Class selectors.
+- Template engine.
+- Indent code.
+- File and folders well structured.
+- Google Fonts and Font Awesome.
 
 ---
 
