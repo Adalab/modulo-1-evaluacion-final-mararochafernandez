@@ -1,18 +1,3 @@
-### My exercise: [Anonymous Proxy](http://beta.adalab.es/modulo-1-evaluacion-final-mararochafernandez/)
-
-### Feature highlights
-
-- **Mobile First** Responsive Web Design.
-- **Semantic HTML structure** to provide additional meaning to the markup.
-- **CSS Flexbox** and **CSS Grid** layouts, working with both at the same time.
-- SASS features to create reusable and maintainable blocks of code: **partials**, **nesting**, **mixins**, **variables**, **@import and @extend directives**...
-- Writing **media queries** with mixins and @content directive to allow for ease of maintenance.
-- **CSS Transitions** and **CSS Animations** with keyframes (for beginners), improving user experience.
-- Version control and branching with **Git** to manage the code.
-- **Adalab Web Starter Kit**: resources and tools (**Node JS**, **NPM**, **Gulp**) to quickly start web development projects.
-
----
-
 ![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
 
 # Evaluación final del módulo 1
