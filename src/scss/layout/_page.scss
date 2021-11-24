@@ -42,6 +42,13 @@ body {
         transform: translate(-50%, -50%);
         position: absolute;
         left: 50%;
+        &:hover {
+            @extend .button-animation;
+        }
+        &:active {
+            border-radius: $button-border;
+            animation: none;
+        }
     }
     &__footer &__mask {
         mask-image: url('../images/ico-arrow.svg');

@@ -63,3 +63,35 @@ $color-neutral-dark: #000;
 .main-transition {
     transition: background-color ease .5s;
 }
+
+
+/* button animation */
+
+.button-animation {
+    animation: acordion 2s infinite linear;
+}
+
+$button-border: 10px;
+@keyframes acordion {
+    15% {
+        border-top-right-radius: $button-border;
+        border-bottom-right-radius: 50%;
+    }
+    30% {
+        border-top-right-radius: $button-border;
+        border-bottom-right-radius: $button-border;
+        border-bottom-left-radius: 50%;
+    }
+    45% {
+        border-top-right-radius: $button-border;
+        border-bottom-right-radius: $button-border;
+        border-bottom-left-radius: $button-border;
+        border-top-left-radius: 50%;
+    }
+    60% {
+        border-top-right-radius: $button-border;
+        border-bottom-right-radius: $button-border;
+        border-bottom-left-radius: $button-border;
+        border-top-left-radius: $button-border;
+    }
+}
