@@ -73,21 +73,18 @@ Desarrollar página web de acuerdo al diseño dado. Utilizando:
 - Fecha: miércoles 24 a las 14:00.
 - Actualizar carpeta docs/ y publicar en GitHub Pages.
 
-## Criterios de evaluación
+### Criterios de evaluación
 
-GENERAL
-
+#### GENERAL
 - **Estructura adecuada de ficheros y carpetas, y enlazar bien los ficheros.**
 - Uso de control de versiones con ramas.
 
-HTML
-
+#### HTML
 - **Código perfectamente indentado.**
 - **Sintaxis correcta y bien estructurado.**
 - **Etiquetas semánticas adecuadas para cada pieza de contenido.**
 
-CSS / SASS
-
+#### CSS / SASS
 - **Código perfectamente indentado.**
 - **Sintaxis correcta y bien estructurado.**
 - Variables, anidación y parciales.
@@ -101,8 +98,7 @@ CSS / SASS
 - Grid para emplazar elementos usando una rejilla.
 - Transiciones para dotar de dinamismo al proyecto.
 
-ISSUES
-
+#### ISSUES
 - Evaluación intermedia.
 
 ---
