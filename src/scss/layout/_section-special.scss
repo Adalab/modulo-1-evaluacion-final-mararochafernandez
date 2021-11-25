@@ -1,0 +1,14 @@
+.section-special {
+    display: none;
+    @include tablet {
+        display: block;
+        background-color: $color-primary;
+        color: $color-neutral-light;
+    }
+    &__container {
+        display: flex;
+    }
+    &__title {
+        text-align: center;
+    }
+}
