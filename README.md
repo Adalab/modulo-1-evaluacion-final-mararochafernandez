@@ -1,4 +1,4 @@
-### My exercise: [Anonymous Proxy](http://beta.adalab.es/modulo-1-evaluacion-final-mararochafernandez/)
+### My exercise: [Anonymous Proxy](https://mararochafernandez.github.io/modulo-1-evaluacion-final/)
 
 ### Feature highlights:
 
